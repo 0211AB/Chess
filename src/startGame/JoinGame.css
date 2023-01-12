@@ -1,0 +1,27 @@
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    height: 5rem;
+}
+
+.socials li {
+    background: brown;
+    border-radius: 7px;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials li a {
+    font-size: 2rem !important;
+    color: white !important;
+}
+
+.socials li a ion-icon {
+    font-size: 1.5rem;
+    color: white
+}
